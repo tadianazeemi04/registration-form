@@ -32,8 +32,8 @@ The form design includes a blurred background image, with a modern and clean lay
 ```plaintext
 registration-form/
 ├── assets/
-│   └── registration-image.jpg
+│   └── registration-image.jpg  # Background image used in the form
 ├── styles/
-│   └── style.css
-├── index.html
-└── README.md
+│   └── style.css               # Stylesheet for the registration form
+├── index.html                  # Main HTML file to open
+└── README.md                   # Project details and instructions
