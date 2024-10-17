@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body style="background-image: url(assets/registration-Image.jpg)">
+    <div class="container">
+        <h2 class="registration">
+            Registration Form
+        </h2>
+        <form action="form.php" method="post">
+            <div class="user_info">
+
+                <div class="input_box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name">
+                </div>
+                <div class="input_box">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username">
+                </div>
+                <div class="input_box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                </div>
+                <div class="input_box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number" id="phoneNumber" name="phoneNumber" placeholder="03xxxxxxxxx">
+                </div>
+                <div class="input_box">
+                    <label for="CNIC">Enter your CNIC</label>
+                    <input type="number" id="cnic" name="cnic" placeholder="Enter CNIC without dashes">
+                </div>
+                <div class="input_box">
+                    <label for="date-of-birth">Your Date of Birth</label>
+                    <input type="date" id="date-of-birth" name="date-of-birth" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="input_box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="New Password">
+                </div>
+                <div class="input_box">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                </div>
+                <span class="genders">
+                    Gender:
+                </span>
+                <div class="gender_box">
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="Female" name="gender">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Other" name="gender">
+                    <label for="Other">Other</label>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="agreement" name="agreement">
+                <label for="term-condition">You agree to receive SMS notifications from us and can change it any time.
+                </label>
+            </div>
+            <div class="term-condition">
+                <span id="term-condition">
+                    By clicking Register Now, you agree to our <a href="">Terms & Conditions</a> and <a href="">Privacy
+                        Policy</a>.
+                </span>
+            </div>
+            <div class="form_submit_btn">
+                <input type="submit" id="registerNow" name="registerNow" value="Register Now">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
