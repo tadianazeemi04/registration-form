@@ -23,7 +23,7 @@ The form design includes a blurred background image, with a modern and clean lay
 ## How to Use
 1. Download or clone this repository.
     ```bash
-    git clone https://github.com/your-username/registration-form.git
+    git clone https://github.com/tadianazeemi04/registration-form
     ```
 2. Navigate to the project folder and open the `index.html` file in your web browser.
 
